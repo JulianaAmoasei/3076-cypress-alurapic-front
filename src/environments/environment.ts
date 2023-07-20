@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  ApiUrl: 'http://localhost:3000',
+  ApiUrl: 'https://alurapic-api.onrender.com',
   serverLog: 'http://localhost:7000'
 };
 

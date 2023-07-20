@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-const CLOUD = 'http://localhost:3000/imgs/';
+const CLOUD = 'https://alurapic-api.onrender.com/imgs/';
 
 @Component({
     selector: 'ap-photo',
