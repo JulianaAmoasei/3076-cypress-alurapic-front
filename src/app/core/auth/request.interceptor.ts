@@ -22,7 +22,9 @@ export class RequestInterceptor implements HttpInterceptor {
                 const token = this.tokenService.getToken();
                 req = req.clone({
                     setHeaders: {
-                        'x-access-token': token
+                        'x-access-token': token,
+                        'Access-Control-Allow-Origin': '/',
+                        'Access-Control-Allow-Methods': 'POST, GET, PUT, DELETE, OPTIONS'
                     }
                 });
             }
